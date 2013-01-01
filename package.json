@@ -1,0 +1,30 @@
+{
+    "name":"mongoose-fulltext",
+    "version":"0.0.0",
+    "description":"Fulltext search plugin for mongoose odm and mongodb.",
+    "main":"index.js",
+    "directories":{
+        "example":"example"
+    },
+    "scripts":{
+        "test":"echo \"Error: no test specified\" && exit 1"
+    },
+    "repository":{
+        "type":"git",
+        "url":"git://github.com/phillro/mongoose-fulltext.git"
+    },
+    "keywords":[
+        "Mongoose",
+        "mongo",
+        "search",
+        "fulltext",
+        "natural"
+    ],
+    "dependencies":{
+        "natural":"latest",
+        "cli":"latest",
+        "mongoose":"latest"
+    },
+    "author":"Phill Rosen",
+    "license":"BSD"
+}
