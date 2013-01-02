@@ -3,7 +3,7 @@ mongoose-fulltext
 
 Dead simple fulltext search plugin for mongoose &amp; mongodb
 
-
+Uses https://github.com/NaturalNode/natural to tokenize, create phonetics and score fields of type String/Number/[String]/[Number]
 
 ## Installation
 
@@ -57,7 +57,7 @@ ex.search({name:'sample'}, {}, {score:true}, function (err, res) {
 
 ## License
 
-Copyright (c) 2011 Phillip Rosen
+Copyright (c) 2013 Phillip Rosen
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
