@@ -1,5 +1,4 @@
 
-
 mongoose-fulltext
 =================
 
@@ -44,10 +43,10 @@ ex.save(function (err, res) {
 })
 ```
 
-A method .search is added to the model. A custom option 'score' is available
-This will add scores and sort hi-lo.
+A method .search is added to the model. 
+If a query is provided it will do $and:[fulltextqeury,mongoquery]
 ```javascript
-ex.search({name:'sample'}, {}, {score:true}, function (err, res) {
+ex.search({name:'sample'},{mongo:query}||false, {}, {score:true,naturalstop:true}, function (err, res) {
         if (err) {
             console.log(err);
         } else {
