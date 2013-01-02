@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/phillro/mongoose-fulltext.png)](https://travis-ci.org/phillro/mongoose-fulltext.png)
+
 mongoose-fulltext
 =================
 
