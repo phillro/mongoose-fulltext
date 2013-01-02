@@ -12,7 +12,11 @@ cli.main(function (args, options) {
     var ExampleSchema = require('./schema')
 
     var Ex = mongoose.model('Example', ExampleSchema);
-    var ex = new Ex({name:'This is a sample document name', description:'This is a sample document description of sometthing'})
+    var ex = new Ex({name:'This is a sample document name', description:'This is a sample document description of sometthing',
+        nested:{
+            n1:'nested value'
+        }
+    })
 
     Ex.ensureIndexes(function (err, res) {
         ex.save(function (err, res) {
