@@ -13,7 +13,7 @@ cli.main(function (args, options) {
 
     var Ex = mongoose.model('Example', ExampleSchema);
 
-    Ex.search({'nested.n1':'nested'}, {}, {}, function (err, res) {
+    Ex.search({'nested.n1':'nested'},{"name":"This is a sample document name"}, {}, {}, function (err, res) {
         if (err) {
             console.log(err);
         } else {
