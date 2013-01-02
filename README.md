@@ -24,7 +24,7 @@ var ExampleSchema = new Schema({
     tags:[{type:String, fulltext:true, searchfield:'customsearchfieldname'}]
 })
 
-```javascript
+
 Fulltext(ExampleSchema,{indexfieldname:'sindex'});
 
 var ex = new Fulltext({name:'This is a sample document name', 
