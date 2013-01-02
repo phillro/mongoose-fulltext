@@ -16,7 +16,8 @@ var ExampleSchema = new Schema({
     tags:[{type:String, fulltext:true, searchfield:'s3'}],
     nested:{
         n1:{type:String, fulltext:true}
-    }
+    },
+
 })
 
 
