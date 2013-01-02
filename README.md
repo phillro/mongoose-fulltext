@@ -1,10 +1,10 @@
-
 mongoose-fulltext
 =================
 
-Dead simple fulltext search plugin for mongoose &amp; mongodb
+Dead simple fulltext search plugin for mongoose &amp; mongodb.
 
 Uses https://github.com/NaturalNode/natural to tokenize, create phonetics and score fields of type String/Number/[String]/[Number]
+Supports term-frequency based scoring and stopwords.
 
 ## Installation
 
