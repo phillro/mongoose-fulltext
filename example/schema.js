@@ -13,7 +13,10 @@ var Schema = mongoose.Schema;
 var ExampleSchema = new Schema({
     name:{type:String, fulltext:true},
     description:{type:String, fulltext:true,  searchfield:'customsearchfieldname'},
-    tags:[{type:String, fulltext:true, searchfield:'s3'}]
+    tags:[{type:String, fulltext:true, searchfield:'s3'}],
+    nested:{
+        n1:{type:String, fulltext:true}
+    }
 })
 
 
