@@ -21,6 +21,7 @@
         "natural"
     ],
     "dependencies":{
+        "node.extend":"latest",
         "natural":"latest",
         "cli":"latest",
         "mongoose":"latest"
